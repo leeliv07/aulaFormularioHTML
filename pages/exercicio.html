@@ -4,13 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tela de Login</title>
-  <link rel="stylesheet" href="exercicio.css">
+  <link rel="stylesheet" href="../styles/exercicio.css">
+
+  <!-- CSS interno
+    <style>
+      p {
+        color: black;
+      }
+    </style>
+  -->
 </head>
 <body>
   <main>
-    <img src="Logo.svg" alt="logo circles">
-    <div>
-      <h1>Login into
+    <img src="../assets/Logo.svg" alt="logo circles">
+    <div class="div-intro">
+      <!-- CSS inline -->
+      <h1 style="color: white;">Login into
       your account</h1>
       <p>Let us make the circle bigger!</p>
     </div>
@@ -23,8 +32,8 @@
         <label for="">Password</label>
         <input type="password" placeholder="your password" required>
       </div>
-      <p>Don't have an account?<a href="">Sign up</a></p>
-      <button type="submit">Login</button>
+      <p class="link-cadastro">Don't have an account?<a href="">Sign up</a></p>
+      <button class="button" type="submit">Login</button>
     </form>  
   </main>
   <footer>

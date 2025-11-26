@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* variaveis CSS */
+:root {
+  --bg-primary: #041643;
+  --color-primary: #1352F1;
+  --color-white: #fff;
+
+  /* gradiente cinza */
+  --gray: #4E4E4E;
+  --dark-gray: #696969; 
+  --light-gray: #AFAFAF;
+}
+
+body {
+  background-color: var(--bg-primary);
+  background-image: url(../assets/gradient.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  padding: 91px 123px;
+  height: 100vh; /* viewport */
+}
+
+.div-intro {
+  margin-top: 100px;
+}
+
+.div-intro > h1 {
+  /* width: 230px; */
+  width: 12ch; /* ch = character */
+  margin-bottom: 23px; 
+}
+
+.div-intro > p {
+  color: var(--light-gray);
+}
+
+form {
+  background-color: var(--color-white);
+  width: 343.33px;
+  padding: 50px 30px;
+}
+
+form label, form input {
+  font-size: 8px;
+}
+
+form input {
+  /* largura */
+  width: 100%;
+}
+
+.link-cadastro {
+  font-size: 10px;
+  color: var(--gray);
+}
+
+.link-cadastro a {
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 10px 37px;
+  border-radius: 5px;
+  font-size: 9px;
+}
+
+footer > p {
+  color: var(--color-white);
+}
